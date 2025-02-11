@@ -1,0 +1,33 @@
+{
+  "name": "electro-gpt",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Electron-приложение для ChatGPT",
+  "devDependencies": {
+    "electron": "^34.1.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.electro.gpt",
+    "productName": "Electro-GPT",
+    "directories": {
+      "output": "dist"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "icons/electro-gpt.icns"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icons/electro-gpt.ico"
+    }
+  }
+}

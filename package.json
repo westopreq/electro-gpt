@@ -15,19 +15,16 @@
     "electron": "^34.1.1",
     "electron-builder": "^25.1.8"
   },
-  "build": {
-    "appId": "com.electro.gpt",
-    "productName": "Electro-GPT",
-    "directories": {
-      "output": "dist"
-    },
-    "mac": {
-      "target": "dmg",
-      "icon": "icons/electro-gpt.icns"
-    },
-    "win": {
-      "target": "nsis",
-      "icon": "icons/electro-gpt.ico"
-    }
+ "build": {
+  "appId": "com.westopreq.electro-gpt",
+  "mac": {
+    "target": "dmg",
+    "icon": "icons/electro-gpt.icns"
+  },
+  "win": {
+    "target": "nsis",
+    "icon": "icons/electro-gpt.ico"
   }
+}
+
 }
